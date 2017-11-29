@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <title>BankBot | By Kunal</title>
+  
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet">
+  
+  <script type="text/javascript">
+        function openChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "";
+            var img = document.getElementById("chat-button");
+            img.className = "hide";
+        }
+        function closeChat() {
+            var frame = document.getElementById("chat-frame");
+            frame.className = "hide";
+            var img = document.getElementById("chat-button");
+            img.className = "";
+        }
+    </script>
+    
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  <section id="intro" class="intro">
+    <div class="slogan">
+      <h2>WELCOME TO CONTOSO BANK</h2>
+      <h4>Chat with our friendly bot to resolve your issues.</h4>
+    </div>
+    
+    <div id="chat">
+        <img id="chat-button" src="img/chatico.png" onclick="openChat()"/>
+        <div id="chat-frame" class="hide">
+            <iframe src='https://webchat.botframework.com/embed/banbothandle?s=mB0cxu2QhzI.cwA.gfI.NYmOOhFE1aET3Rdooe6jriHuBIuz_s_NxzdQzy5ZZQc'></iframe>
+            <img src="img/minus.png" onclick="closeChat()" />
+        </div>
+    </div>
+    
+  </section>
+ </body>
+</html>

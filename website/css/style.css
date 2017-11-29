@@ -1,0 +1,219 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato',sans-serif;
+	font-weight: 300;
+    color: #666;
+    background-color: #fff;
+}
+body {
+    font-size: 25px;
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+#logo {
+    position: absolute;
+    left: 25px;
+    width: 10%;
+    min-width: 100px;
+    max-width: 500px;
+}
+
+#left-content {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#right-content {
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+#right-content img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#content {
+    width: 75%;
+    height: 750px;
+    margin: 0 auto;
+}
+
+#chat {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+    width: 300px;
+    height: 400px;
+}
+
+#chat-button {
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#chat-frame {
+    height: 400px;
+    width: 300px;
+}
+
+#chat-frame img {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 960px) {
+    body {
+        text-align: center;
+    }
+
+    #heading {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #logo {
+        position: relative;
+        left: auto;
+        min-width: 100px;
+        max-width: 500px;
+    }
+
+    #left-content {
+        width: 100%;
+        height: auto;
+    }
+
+    #right-content {
+        width: 100%;
+        height: auto;
+    }
+
+    #right-content img {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    #content {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.intro {
+	width:100%;
+	position:relative;
+	background: url(../img/bg1.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100%;
+}
+
+#intro.intro {
+	padding:20% 0 0 0;
+}
+
+.intro .slogan {
+	text-align: center;
+
+}
+
+.intro .page-scroll {
+	text-align: center;
+}
+
+.brand-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+}
+
+.intro .slogan h2 {
+	color: #FFF;
+	text-shadow: none;
+	font-size: 60px;
+	line-height: 60px;
+	font-weight: 700;
+	font-family: Montserrat, sans-serif;
+	background-color: rgba(0, 0, 0, 0);
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 0px;
+	border-color: #000;
+	border-style: none;
+	text-shadow: -1px 0 1px #000;
+}
+
+.intro .slogan h4 {
+	color: #fff;
+	text-shadow: -1px 1px 1px #000;
+}
+
+@media(min-width:767px) {
+
+    .navbar {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+        background-color: #000;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        border-bottom: 1px solid rgba(255,255,255,.3);
+    }
+	
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .brand-heading {
+        font-size: 100px;
+    }
+	
+
+    .intro-text {
+        font-size: 25px;
+    }
+
+
+}
+
+}
